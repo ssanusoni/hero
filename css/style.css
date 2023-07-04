@@ -1,0 +1,326 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	/*background:cyan;*/
+}
+
+.menubar {
+	width: 100%;
+	background: white;
+}
+
+.menubar ul {
+	list-style: none;
+	display: flex;
+}
+
+.menubar ul li {
+	font-size: 14px;
+	font-weight: 549;
+	align-self: center;
+	padding: 10px;
+}
+
+.menubar ul li img {
+	width: 200px;
+	padding-right: 15px;
+}
+
+.f100_img {
+	width: 100%;
+	height: 100vh;
+	background: url('../images/background.jpg');
+	background-size: cover;
+}
+
+.overlay {
+	width: 380px;
+	border: 1px solid red;
+	transform: translate(800px,100px);
+	background: rgba(255,255,255,0.4);
+	position: sticky;
+	top: -200px;
+
+}
+
+.heading {
+	width: 100%;
+	background: red;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.head_text ul {
+	list-style: none;
+	border: 1px solid grey;
+	margin: 20px 20px;
+}
+
+.head_text ul li {
+	border-bottom: 1px solid grey;
+	line-height: 40px;
+}
+
+.head_text ul li:nth-child(1),.head_text ul li:nth-child(3),.head_text ul li:nth-child(5) {
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.head_text ul li:nth-child(2),.head_text ul li:nth-child(4),.head_text ul li:nth-child(6) {
+	font-weight: bold;
+	padding-left: 5px;
+	color: darkred;
+}
+
+
+.head_button {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.head_button input {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.row1 {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.row1 h1 {
+	text-align: center;
+	word-spacing: 4px;
+	color: #ed1c24;
+	letter-spacing: 5px;
+	padding: 30px 0px;
+}
+
+.row1_c {
+	width: 100%;
+	display: flex;
+}
+
+.row1_c_r {
+	width: 49%;
+}
+
+.row1_c_r img {
+	width: 98%;
+	height: 400px;
+	padding: 20px 0px;
+	padding-right: 10px;
+}
+
+.row1_c_r p {
+	padding: 20px 10px;
+	line-height: 25px;
+	color: gray;
+	text-align: justify;
+}
+
+.KEY {
+	width: 100%;
+	background: lightgrey;
+}
+
+.KEY h1 {
+	text-align: center;
+	padding: 20px 0px;
+	letter-spacing: 5px;
+}
+
+.keyfeatures {
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+
+.key_right {
+	width: 49%;
+	color: black;
+}
+
+.item {
+	display: flex;
+	line-height: 50px;
+}
+.item i {
+	color: red;
+	font-size: 20px;
+	line-height: 50px;
+}
+.item p {
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+.AMENITIES {
+	width: 100%;
+	background: #f1f1f1;
+}
+
+.ameni_img {
+	width: 1000px;
+	margin: auto;
+}
+
+.AMENITIES h1 {
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 20px 0px;
+}
+
+.gym_img {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.gym_img1 {
+	background-color: white;
+    flex-basis: 20%;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.gallery {
+	width: 1100px;
+	margin: auto;
+}
+
+.gallery h1 {
+	letter-spacing: 5px;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.glry_r1 {
+	text-align: center;
+}
+
+.glry_r1 input {
+	padding: 10px 15px;
+	color: white;
+	font-weight: 600;
+	border: none;
+}
+
+.glry_r1 input:first-child {
+	background: #ed1c24;
+}
+
+.glry_r1 input:last-child {
+	background: rgb(33,60,43);
+	padding-left: 35px;
+}
+
+.glry_item {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.glry_img {
+	background-color: white;
+}
+
+.glry_img img {
+	width: 230px;
+	height: 220px;
+	border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.glry_img img:hover {
+	transform: scale(1.05,1.05);
+}
+
+.award {
+	width: 100%;
+	height: 600px;
+}
+
+.award h3 {
+	text-align: center;
+}
+
+.award_item {
+	display: flex;
+	background: white;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+}
+
+.award_item img {
+	width: 220px;
+	height: 150px;
+	padding: 20px 20px;
+}
+
+.footor {
+	width: 100%;
+	background: #000000ab;
+}
+
+.footor_main {
+	width: 1100px;
+	height: 100%;
+	margin: auto;
+}
+
+.footor_r1 {
+	padding-top: 20px;
+}
+
+.footor_r2 {
+	width: 100%;
+}
+
+.footor_r2_c {
+	display: flex;
+}
+.footor_r2 ul {
+	list-style: none;
+}
+
+.footor_r2 ul li {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 55px;
+	padding-left: 55px;
+}
+
+.footor_r2 ul:last-child {
+	padding-left: 200px;
+}
+
+.footor_r3 {
+	width: 100%;
+	height: 154px;
+}
+
+.footor_r3 img {
+	height: 100%;
+}
+
+.footor_r4 p {
+	line-height: 20px;
+}
